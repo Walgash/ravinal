@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RAVINALA Pau soutient les enfants malgaches avec des projets éducatifs et culturels. Rejoignez-nous pour faire la différence.">
+  <title>RAVINALA Pau - Aider les enfants malgaches</title>
+  <style>
+    /* Global Styles */
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to left, #FFFFFF, #00843D, #FC3D21);
+      font-family: Calibri, sans-serif;
+      color: black; /* Texte en noir */
+    }
+    /* Liens globaux */
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    /* Header */
+    header {
+      padding: 10px 20px;
+      text-align: center;
+    }
+    .logo {
+      display: block;
+      margin: 20px auto;
+      max-width: 300px;
+    }
+    /* Navigation : boutons sommaire en blanc */
+    nav {
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      background: rgba(0, 0, 0, 0.2);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+    }
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+    }
+    /* Main Content */
+    main {
+      padding: 20px;
+    }
+    section {
+      padding: 20px;
+      margin-bottom: 40px;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 5px;
+    }
+    h2 {
+      text-align: center;
+      margin-top: 0;
+    }
+    /* Projets et Événements */
+    .card {
+      margin-bottom: 20px;
+    }
+    .project-images {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .project-images img {
+      width: 30%;
+      height: auto;
+      border-radius: 5px;
+    }
+    /* Gallery */
+    .gallery {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+    .gallery img {
+      width: 60%;
+      height: auto;
+      border-radius: 5px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    }
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: transparent;
+    }
+    /* Style spécifique aux liens Partenariats */
+    #partnerships ul li a {
+      color: #00843D;           /* couleur verte RAVINALA */
+      font-weight: bold;        /* texte en gras */
+      text-decoration: underline; /* souligné */
+      transition: color 0.3s;
+    }
+    #partnerships ul li a:hover {
+      color: #005a2d;           /* teinte plus foncée au survol */
+    }
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .project-images img {
+        width: 80%;
+      }
+      nav {
+        flex-direction: column;
+      }
+      .gallery img {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo3.jpg" alt="Logo RAVINALA Pau" class="logo">
+    <h1>Bienvenue sur le site de RAVINALA Pau</h1>
+    <p>Aider les enfants malgaches grâce à vos dons et participations.</p>
+  </header>
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#projets">Projets</a>
+    <a href="#events">Événements</a>
+    <a href="#donations">Faire un don</a>
+    <a href="#partnerships">Partenariats</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <main>
+    <!-- Section À propos -->
+    <section id="about">
+      <h2>À propos de RAVINALA Pau</h2>
+      <p>
+        Fondée en 2019, notre association soutient les enfants malgaches en leur offrant des opportunités éducatives et culturelles pour construire un avenir meilleur.
+        Nous promouvons la solidarité et renforçons les liens entre les communautés grâce à divers événements et initiatives. 
+        Composée de sept membres permanents et 100 adhérents, vos dons ont permis d'aider plus de 300 élèves.
+      </p>
+    </section>
+    <!-- Section Projets -->
+    <section id="projets">
+      <h2>Nos Projets</h2>
+      <div class="card">
+        <h3>2020</h3>
+        <p>Des kits de fournitures scolaires ont été fournis à une centaine d'élèves de Mananjary.</p>
+      </div>
+      <div class="card">
+        <h3>2024</h3>
+        <p>
+          Au cours de l'année scolaire 2024-2025, Ravinala a été présente à l'école Rapela Jao Maria à Ambodikovola.
+          225 élèves reçoivent chaque semaine deux collations. Les salaires de trois instituteurs et du jardinier de l'école
+          ont été payés pour l'année. Nous remercions le Lions Club Fianarantsoa et Nutri'zaza sans qui cela n'aurait pas été possible.
+        </p>
+        <!-- Images réduites et côte à côte -->
+        <div class="project-images">
+          <img src="ecole1.jpg" alt="Photo de l'école 1">
+          <img src="ecole2.jpg" alt="Photo de l'école 2">
+          <img src="ecole3.jpg" alt="Photo de l'école 3">
+        </div>
+      </div>
+    </section>
+    <!-- Section Événements -->
+    <section id="events">
+      <h2>Nos événements</h2>
+      <div class="card">
+        <h3>Réveillons caritatifs</h3>
+      </div>
+      <div class="card">
+        <h3>Soirées dansantes</h3>
+        <!-- Image centrée sous "Soirées dansantes" -->
+        <div style="display: flex; justify-content: center; margin-top: 10px;">
+          <img src="soiree1.jpg" alt="Soirée dansante" style="max-width: 50%; height: auto; border-radius: 5px;">
+        </div>
+      </div>
+      <div class="card">
+        <h3>Fête de l'indépendance malgache</h3>
+        <p>Rejoignez-nous le 14 juin 2025 à la salle des fêtes de Buros</p>
+      </div>
+    </section>
+    <!-- Section Faire un don -->
+    <section id="donations">
+      <h2>Faire un don</h2>
+      <p style="text-align: center;">
+        <a href="https://www.leetchi.com/fr/c/association-ravinala-pau-france-3581202?utm_source=copylink&utm_medium=social_sharing" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #00843D; color: white; font-weight: bold; font-size: 1.5em; border-radius: 5px; text-decoration: none;">
+          Faites un don maintenant sur Leetchi
+        </a>
+      </p>
+    </section>
+    <!-- Section Gallery -->
+    <section id="gallery">
+      <div class="gallery">
+        <img src="ecole4.jpg" alt="Photo élargie de l'école 4" style="width: 60%; height: auto; border-radius: 5px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+      </div>
+      <p style="text-align: center; font-style: italic;">
+        Élèves de l'école Rapela Jao Maria aidés par l'association pour l'année scolaire 2024
+      </p>
+    </section>
+    <!-- Section Partenariats -->
+    <section id="partnerships">
+      <h2>Partenariats</h2>
+      <ul>
+        <li>
+          <a href="https://e-clubhouse.org/sites/fianarantsoa/" target="_blank">
+            Lions Club Fianarantsoa
+          </a>
+        </li>
+        <li>
+          <a href="https://nutrizaza.mg/" target="_blank">
+            Nutri'zaza
+          </a>
+        </li>
+      </ul>
+    </section>
+    <!-- Section Contact -->
+    <section id="contact">
+      <h2>Contactez-nous</h2>
+      <p>Email : <a href="mailto:ravinala.pau.64@gmail.com">ravinala.pau.64@gmail.com</a></p>
+      <p>Téléphone 1 : <a href="tel:+33624990997">+33 6 24 99 09 97</a></p>
+      <p>Téléphone 2  : <a href="tel:+33671757703">+33 6 71 75 77 03</a></p>
+    </section>
+  </main>
+<footer>
+  <p>
+    <a href="https://www.facebook.com/pau.ravinala.9/" target="_blank"
+      style="display:inline-block; color:#0d2241; font-weight:bold; text-decoration:underline; font-size:1.2em;">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg"
+        alt="Facebook"
+        style="width:24px; height:24px; vertical-align:middle; margin-right:8px; filter: brightness(0) saturate(100%) invert(14%) sepia(60%) saturate(4495%) hue-rotate(192deg) brightness(87%) contrast(101%);">
+      Suivez-nous sur Facebook
+    </a>
+  </p>
+  <p>&copy; 2025 RAVINALA Pau - Tous droits réservés</p>
+</footer>
+
+
+</body>
+</html>
